@@ -86,3 +86,34 @@ background-color:lightgray;
     }
         
    
+
+     
+#formularz {
+    width: 250px;    
+    margin:  auto;  /* wyśrodkowanie formularza, przy ustalonej szerokości */
+    background-color: lightgray;
+    border: solid 1px black;   /*obramowanie o szerokości 1px, kolor czarny
+    padding: 10px; /*odstęp między obramowaniem a zawartością rekordu */
+    font-family: Arial;
+      } 
+    
+#formularz label{
+    display:block;
+    margin:  auto;  /* wyśrodkowanie formularza, przy ustalonej szerokości */
+    margin-bottom: 5px;  /* odstęp miedzy label a input*/
+     margin-top: 5px;
+    color: darkcyan;
+    font-size: 15px;
+    text-align: center ;
+    }   
+    
+#formularz textarea, 
+#formularz input {
+    margin:  auto;  /* wyśrodkowanie formularza, przy ustalonej szerokości */
+    display: block;
+    border: solid 1px white;
+    width: 200px;
+    margin-bottom:7px;
+    font-size: 15px;  
+    
+}
